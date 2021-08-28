@@ -49,5 +49,6 @@ jobs:
           destination_branch_create: 'repo-sync'
           destination_folder: 'Policies'
           user_email: 'michael@replika.ai'
+          writer impact: 'atum'
           user_name: 'site-policy-bot'
           commit_msg: '${{ env.MESSAGE }}'
